@@ -1,0 +1,77 @@
+.cont {
+    height: 1500px;
+    width: 900px;
+    background-image: url(screen.png);
+    background-size: cover;
+    color: white;
+    border-radius: 50px;
+    background-position: center;
+    overflow: hidden;
+    border: 1px solid black;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 1);
+}
+
+form {
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+    backdrop-filter: brightness(40%);
+}
+
+h1 {
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 2px;
+}
+
+label {
+    font-size: 60px;
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+input {
+    display: block;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+button {
+    background: rgba(0, 0, 0, 0);
+    height: 80px;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: rgb(253, 250, 250);
+    color: rgb(2, 2, 2);
+}
+
+input:hover {
+    background-color: rgb(242, 239, 239);
+    color: rgb(14, 14, 14);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+}
